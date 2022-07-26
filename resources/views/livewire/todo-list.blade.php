@@ -7,7 +7,7 @@
             </div>
         @endif
     </div>
-    
+     
     <div class="flex gap-4 justify-between">
         <input type="text" wire:model="todoText" wire:keydown.enter="addTodo" placeholder="Type and hit enter" class="flex-1">
         
