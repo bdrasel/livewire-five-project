@@ -22,5 +22,5 @@
         @endforeach
         </tbody>
     </table>
-    {{$products->links('vendor.livewire.simple-tailwind')}}
+    {{$products->links()}}
 </div>
